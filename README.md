@@ -1,4 +1,4 @@
-## Emergent Linguistic Structure in Neural Networks are Fragile
+## Emergent Linguistic Structures in Neural Networks are Fragile
 
 We provide a *very* preliminary version of the code to replicate all the experiments of the paper
 `Emergent Linguistic Structure in Neural Networks are Fragile'. A draft of the article is available here:
