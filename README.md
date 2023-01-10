@@ -1,4 +1,4 @@
-## Emergent Linguistic Structures in Neural Networks are Fragile
+# Emergent Linguistic Structures in Neural Networks are Fragile
 
 We provide a *very* preliminary version of the code to replicate all the experiments of the paper
 `Emergent Linguistic Structure in Neural Networks are Fragile'. A draft of the article is available here:
@@ -16,8 +16,7 @@ This will launch a program that:
 - measure the robustness of the probe against a perturbation model;
 - print and store the results.
 
-## !!warning!! All the representations will be pre-computed and stored inside the data/datasets/conll folder as numpy files, so please consider that 
-## you'll need a lot of space if you decide to run all the experiments of the paper (approximately 150 GB).
+## !!warning!! All the representations will be pre-computed and stored inside the data/datasets/conll folder as numpy files, so please consider that you'll need a lot of space if you decide to run all the experiments of the paper (approximately 150 GB).
 
 Please look at the argparse of probing_robustness.py for all the options available, there are *a lot* of choices, among those:
 - select between Word2Vec, GloVe, BERT and RoBERTa (and in the case of BERT and RoBERTa, the hidden layer to use to extract the representation of the input and the size of the LLM)
